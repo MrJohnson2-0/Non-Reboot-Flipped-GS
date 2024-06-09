@@ -1,0 +1,51 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// ENUMS
+//---------------------------------------------------------------------------------------------------------------------
+
+
+//---------------------------------------------------------------------------------------------------------------------
+// STRUCTS
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x10 (0x10 - 0x0)
+// ScriptStruct MotherGameplayRuntime.GoopAudioMapRangeClamped
+struct FGoopAudioMapRangeClamped
+{
+public:
+	struct FVector2D                             InRange;                                           // 0x0(0x8)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                             OutRange;                                          // 0x8(0x8)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// 0x30 (0x30 - 0x0)
+// ScriptStruct MotherGameplayRuntime.PaddleGingerPropData
+struct FPaddleGingerPropData
+{
+public:
+	class FText                                  CategoryLabelText;                                 // 0x0(0x18)(BlueprintVisible, NativeAccessSpecifierPublic)
+	int32                                        PropIndex;                                         // 0x18(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                        MaxPropCount;                                      // 0x1C(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                        CategoryIndex;                                     // 0x20(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                        MaxCategoryCount;                                  // 0x24(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class APlayerState*                          Sender;                                            // 0x28(0x8)(BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// 0x10 (0x10 - 0x0)
+// ScriptStruct MotherGameplayRuntime.PaddleGingerPropActivatedData
+struct FPaddleGingerPropActivatedData
+{
+public:
+	bool                                         bActivated;                                        // 0x0(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                        Pad_1A71[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	class APlayerState*                          Sender;                                            // 0x8(0x8)(BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+}
+
+
