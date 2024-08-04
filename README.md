@@ -1,2 +1,2 @@
 # Non-Reboot-Flipped-GS
-good luck skidding this, its very very broken and will not work
+Its Not Broken its just skunked
